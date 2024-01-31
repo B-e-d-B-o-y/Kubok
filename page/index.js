@@ -34,8 +34,8 @@
         w: 80,
         h: 40,
         radius: 12,
-        normal_color: 0x0057fa,
-        press_color: 0x8ac8ff,
+        normal_color: 0xf40309,
+        press_color: 0xfc2b2e,
         text: 'Reset',
         click_func: () => {
           clck = 0;
@@ -54,8 +54,8 @@
         h: 140,
         radius: 0,
         text_size: 60,
-        normal_color: 0x8ac8ff,
-        press_color: 0xbde0ff,
+        normal_color: 0xffdf01,
+        press_color: 0xffe433,
         text: '+',
         click_func: () => {
           clck = clck + 1;
@@ -72,8 +72,8 @@
         h: 140,
         radius: 0,
         text_size: 100,
-        normal_color: 0x8ac8ff,
-        press_color: 0xbde0ff,
+        normal_color: 0xffdf01,
+        press_color: 0xffe433,
         text: '-',
         click_func: () => {
           if(clck>0) {
